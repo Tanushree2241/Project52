@@ -1,0 +1,114 @@
+ .grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+ }
+
+ .grid{
+    display: flex;
+    flex-wrap : wrap ;
+    justify-content: space-around;
+    margin: 25px;
+ }
+
+ .origami{
+    border-radius: 20px;
+    border-top-style:groove;
+    background-color :#ffffff;
+    padding: 30PX;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+ }
+
+ .menu{
+   display: flex;
+   justify-content: space-between;
+   background-color:#000000;
+   font-size: 15px;
+   font-family: sans-serif;
+   font-weight: 400;
+   color:#ffffff;
+ }
+
+ .menu h1{
+   margin-left: 130px;
+ }
+
+ body{
+   background-color: #f7f2f2;    
+ }
+
+ .bodyimg {
+    position: relative;
+  }
+
+  .text-block {
+   color: #f7f2f2;
+   font-size: 20px;
+   font-family:sans-serif;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+  }
+
+  .extra{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 15px;
+    color:#ffffff;
+  }
+
+  .extra h1{
+   margin-left: 130px;
+  }
+
+  a :link {
+     color: white;
+  }
+  a:visited {
+     color: white;
+  }
+
+  .origami:hover{
+     transform: scale(1.2);
+  }
+
+  .menu a{
+   margin-right: 10px;
+   margin-left: 10px;
+   text-decoration: none;
+  }
+
+  .extra a{
+   margin-right: 10px;
+   margin-left: 10px;
+   text-decoration: none;
+  }
+
+  .forContact{
+   display: flex;
+   justify-content: space-between;
+   background-color: #000000;
+   font-size: 15px;
+   color:#ffffff;
+  }
+  
+
+  .forContact h1{
+   margin-left: 130px;
+  }
+
+  .forContact a{
+   margin-right: 10px;
+   margin-left: 10px;
+   text-decoration: none;
+  }
+ 
+
+  .own{
+     border: solid;
+     border-radius: 50px;
+     font-size: 20px;
+  }
